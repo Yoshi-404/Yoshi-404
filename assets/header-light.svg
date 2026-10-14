@@ -70,32 +70,32 @@
 
   <!-- Dithered / Cyber Tech Pills -->
   <g transform="translate(42, 210)">
-    <!-- Pill 1: JLPT N1 -->
+    <!-- Pill 1: JLPT N1 & TOEIC 840 -->
     <g transform="translate(0, 0)">
-      <rect width="115" height="34" rx="6" fill="#fff1f2" stroke="#fecdd3" stroke-width="1" />
-      <text x="57.5" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#e11d48">JLPT N1</text>
+      <rect width="180" height="34" rx="6" fill="#fff1f2" stroke="#fecdd3" stroke-width="1" />
+      <text x="90" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#e11d48">JLPT N1 • TOEIC 840</text>
     </g>
 
     <!-- Pill 2: 3D Graphics & OpenGL -->
-    <g transform="translate(125, 0)">
+    <g transform="translate(190, 0)">
       <rect width="145" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
       <text x="72.5" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" fill="#334155">OpenGL • Pygame</text>
     </g>
 
     <!-- Pill 3: Mobile & Web -->
-    <g transform="translate(280, 0)">
+    <g transform="translate(345, 0)">
       <rect width="165" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
       <text x="82.5" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" fill="#334155">Flutter • Next.js</text>
     </g>
 
     <!-- Pill 4: C++ & Python -->
-    <g transform="translate(455, 0)">
+    <g transform="translate(520, 0)">
       <rect width="125" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
       <text x="62.5" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" fill="#334155">C++ • Python</text>
     </g>
 
     <!-- Pill 5: UI & Streetwear -->
-    <g transform="translate(590, 0)">
+    <g transform="translate(655, 0)">
       <rect width="160" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
       <text x="80" y="21.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" fill="#475569">UI/UX &amp; Streetwear</text>
     </g>
