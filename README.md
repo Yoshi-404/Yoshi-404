@@ -123,15 +123,15 @@
       <sub><a href="https://github.com/Yoshi-404/digital-meishi"><b>Repositório GitHub</b></a> &nbsp;•&nbsp; <a href="https://digital-meishi-yosh.vercel.app"><b>Deploy na Vercel ↗</b></a></sub>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="#">KutsuLab</a></h4>
+      <h4><a href="https://kutsu-lab.vercel.app">KutsuLab</a></h4>
       <p><i>Conceito editorial e curadoria de sneakers (Streetwear)</i></p>
       <p>Projeto de interface e design system desenhado no Figma, estruturado para reviews e histórias por trás de sneakers clássicos como Onitsuka Tiger.</p>
       <p>
+        <img src="https://img.shields.io/badge/Next.js-161b22?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/Figma-161b22?style=flat&logo=figma&logoColor=F24E1E" alt="Figma" />
-        <img src="https://img.shields.io/badge/UI_Design-161b22?style=flat" alt="UI Design" />
-        <img src="https://img.shields.io/badge/Roadmap-161b22?style=flat" alt="Roadmap" />
+        <img src="https://img.shields.io/badge/Vercel-161b22?style=flat&logo=vercel&logoColor=white" alt="Vercel" />
       </p>
-      <sub>Status: <b>Conceito de UI / Design System</b></sub>
+      <sub><a href="https://kutsu-lab.vercel.app"><b>Deploy na Vercel ↗</b></a></sub>
     </td>
   </tr>
 </table>
