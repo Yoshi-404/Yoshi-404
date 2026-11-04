@@ -141,9 +141,11 @@
 ### Atividade &amp; Métricas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yoshi-404&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=f43f5e" height="165" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yoshi-404&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8" height="165" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/ascii-telemetry-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/ascii-telemetry-light.svg">
+    <img src="./assets/ascii-telemetry-dark.svg" alt="ASCII Sharks Ocean Engine &amp; Stack Telemetry" width="100%">
+  </picture>
 </p>
 
 ---
