@@ -1,0 +1,43 @@
+name: Update Live GitHub Telemetry & ASCII Sharks
+
+on:
+  schedule:
+    # Runs automatically every 6 hours to keep repository count, commits, and language stats fresh
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_telemetry.py"
+      - ".github/workflows/update-telemetry.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch live GitHub metrics & generate animated SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_telemetry.py
+
+      - name: Commit and push if telemetry changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ascii-telemetry-dark.svg assets/ascii-telemetry-light.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(telemetry): auto-update live GitHub stats & ASCII ocean"
+            git push
+          fi
